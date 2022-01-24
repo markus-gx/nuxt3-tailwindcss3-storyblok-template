@@ -11,7 +11,7 @@
       <component v-for="blok in state.story.content.body" :key="blok._uid"
                  v-editable="blok"
                  :is="blok.component"
-                 :blok="blok"
+                 v-bind="{...blok}"
       ></component>
     </main>
   </div>
@@ -27,11 +27,12 @@ import CallToAction from "~/components/atoms/CallToAction.vue";
 import ImageStage from "~/components/atoms/ImageStage.vue";
 import useSettings from "~/composables/useSettings";
 import Navigation from "~/components/atoms/Navigation.vue";
+import OneToRuleThemAll from "~/components/organisms/OneToRuleThemAll.vue";
 
 export default defineComponent({
   components: {
     Navigation,
-    CallToAction, ImageStage
+    CallToAction, ImageStage, OneToRuleThemAll
   },
   async setup(){
     const {nav} = useSettings()
