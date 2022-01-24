@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "nuxt3": "latest",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  },
+  "dependencies": {
+    "@storyblok/nuxt": "^3.0.0-beta.3",
+    "@tailwindcss/typography": "^0.5.0",
+    "axios": "^0.25.0"
+  }
+}
