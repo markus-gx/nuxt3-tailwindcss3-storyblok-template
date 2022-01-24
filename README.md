@@ -13,6 +13,11 @@ Make sure to install the dependencies
 yarn install
 ```
 
+#### Create `.env` File
+```dotenv
+STORYBLOK_TOKEN=YOUR_STORYBLOK_TOKEN
+```
+
 ## Development
 
 Start the development server on http://localhost:3000
