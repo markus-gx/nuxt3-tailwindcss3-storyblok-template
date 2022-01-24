@@ -25,7 +25,6 @@ import useStoryApi from "~/composables/useStoryApi";
 import useStoryBridge from "~/composables/useStoryBridge";
 import CallToAction from "~/components/atoms/CallToAction.vue";
 import ImageStage from "~/components/atoms/ImageStage.vue";
-import useSettings from "~/composables/useSettings";
 import Navigation from "~/components/atoms/Navigation.vue";
 import OneToRuleThemAll from "~/components/organisms/OneToRuleThemAll.vue";
 
@@ -35,7 +34,6 @@ export default defineComponent({
     CallToAction, ImageStage, OneToRuleThemAll
   },
   async setup(){
-    const {nav} = useSettings()
     const route = useRoute()
     const router = useRouter()
     const slugArray = route.params.slug as string[]
@@ -49,7 +47,6 @@ export default defineComponent({
       return {
         state,
         useStoryBridge,
-        nav
       }
     }catch(e){
       router.push("/home")
