@@ -23,12 +23,13 @@ import Navigation from "~/components/atoms/Navigation.vue";
 import CallToAction from "~/components/atoms/CallToAction.vue";
 import ImageStage from "~/components/atoms/ImageStage.vue";
 import OneToRuleThemAll from "~/components/organisms/OneToRuleThemAll.vue";
+import TextImage from "~/components/molecules/TextImage.vue";
 
 export default defineComponent({
   name: "CmsPage",
   components: {
     Navigation,
-    CallToAction, ImageStage, OneToRuleThemAll},
+    CallToAction, ImageStage, OneToRuleThemAll, TextImage},
   props: {
     header: {
       type: Array,
