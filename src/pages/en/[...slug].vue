@@ -13,7 +13,7 @@ export default defineComponent({
     CmsPage
   },
   async setup(){
-    return await useCmsPage()
+    return await useCmsPage("en")
   },
   mounted() {
     useStoryBridge(this.state.story.id, (story) => (this.state.story = story))
