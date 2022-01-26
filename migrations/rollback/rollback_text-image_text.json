@@ -1,0 +1,128 @@
+[
+  {
+    "id": 101688609,
+    "full_slug": "home",
+    "content": {
+      "_uid": "98226877-1faa-4af0-a518-c75b7e65cc7d",
+      "body": [
+        {
+          "_uid": "1760754f-b723-4c4a-b3a2-032af3381bd4",
+          "label": "Storyblok Workshop",
+          "action": {
+            "id": "0550637c-0479-492a-aecd-894948cacce2",
+            "url": "",
+            "anchor": "test",
+            "linktype": "story",
+            "fieldtype": "multilink",
+            "cached_url": "home"
+          },
+          "component": "call-to-action",
+          "label__i18n__en": "Storyblok Workshop english"
+        },
+        {
+          "_uid": "5b1436b6-67d7-4736-9b40-06b9f509b95a",
+          "text": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "What is Lorem Ipsum?",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Lorem Ipsum",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " ",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "styled",
+                        "attrs": {
+                          "class": ""
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          "title": "Ich bin ein Title",
+          "component": "text-section"
+        },
+        {
+          "_uid": "f567498b-baab-417b-9f71-d0516810f74a",
+          "text": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "What is Lorem Ipsum?\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing LoremIpsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          "image": {
+            "id": 3712720,
+            "alt": "jimmy",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/144272/3024x4032/f1b93a468d/jimmy.jpg",
+            "copyright": "",
+            "fieldtype": "asset"
+          },
+          "component": "text-image"
+        }
+      ],
+      "title": "TOWA - The digital growth company",
+      "header": [
+        {
+          "_uid": "4e694988-30c5-4395-8017-87782281d859",
+          "image": {
+            "id": 3710972,
+            "alt": "Kindle",
+            "name": "",
+            "focus": null,
+            "title": "",
+            "filename": "https://a.storyblok.com/f/144272/1920x600/bf5591d3f1/kindle_unsplash.png",
+            "copyright": "Unsplash",
+            "fieldtype": "asset"
+          },
+          "title": "Ich bin eine Seite",
+          "subTitle": "Hier sehen Sie Beispiele",
+          "component": "image-stage",
+          "title__i18n__en": "I am a page",
+          "subTitle__i18n__en": "just another sentence"
+        }
+      ],
+      "component": "page",
+      "description": "cool!"
+    }
+  }
+]

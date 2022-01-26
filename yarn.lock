@@ -5327,6 +5327,11 @@ vue-loader@^17.0.0:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
+vue-plugin-load-script@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue-plugin-load-script/-/vue-plugin-load-script-2.1.0.tgz#601ead612058600c141ab44180cdaa4b7758e3a3"
+  integrity sha512-tFvedqtOiLI+jZ78dymg+f7bjiglCVC2lA0CXVIq7bXVqu1sssP40r6UNMpD9glGD+EhbGRdOa70Sb5ZuHjmTA==
+
 vue-router@^4.0.12:
   version "4.0.12"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.12.tgz#8dc792cddf5bb1abcc3908f9064136de7e13c460"
